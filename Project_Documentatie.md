@@ -82,7 +82,7 @@ Het spel werkt als volgt:
 
 | **Di 9 juni** | Spel-volgorde maken (willekeurige LEDs laten branden). | Code geschreven voor de willekeurige volgorde. Probleem: bij het opstarten was de volgorde steeds precies hetzelfde. Opgelost door `randomSeed(analogRead(0))` te gebruiken. |
 
-| **Wo 10 juni** | Code schrijven om de knoppen uit te lezen. | Code geschreven. Probleem: als ik één keer op een knop drukte, dacht de Arduino soms dat ik twee keer drukte (denderen van de knop). Opgelost door een kleine delay in de code te zetten na het indrukken. |
+| **Wo 10 juni** | Code schrijven om de knoppen uit te lezen. | Code geschreven. Probleem: als ik één keer op een knop drukte, dacht de Arduino soms dat ik twee keer drukte. Opgelost door een kleine delay in de code te zetten na het indrukken. |
 
 | **Do 11 juni** | Teksten zoals de ronde en win/verlies op het scherm programmeren. | Teksten geprogrammeerd. Het scherm reageerde eerst wat traag. De code wat korter gemaakt om geheugen te besparen. |
 
