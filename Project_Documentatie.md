@@ -32,7 +32,6 @@ Het spel werkt als volgt:
 *   Er moet een OLED-schermpje zijn waarop de huidige ronde (bijvoorbeeld "Round 1") en de spelstatus (zoals "READY?", "WRONG!", "YOU WIN!" of "TRY AGAIN") te zien is.
 *   Het spel moet maximaal 10 rondes duren. Bij het behalen van de 10e ronde wint de speler het spel.
 *   Bij een foutieve knopinvoer moet het spel direct stoppen en teruggaan naar ronde 1.
-
 ---
 
 ## 3. Gebruikte Onderdelen (Hardware)
@@ -89,7 +88,7 @@ Het spel werkt als volgt:
 
 | **Vr 12 juni** | Het hele spel voor de eerste keer testen en fouten zoeken. | Eerste grote test gedaan. Het spel werkte, maar de lampjes knipperden veel te snel achter elkaar waardoor je het niet kon onthouden. Delays in de code langer gemaakt. |
 
-| **Za 13 juni** | Testen of alles goed blijft werken na vaker spelen. | Getest. Soms bleef de buzzer piepen als je heel snel op de knoppen drukte. Dit opgelost door de code zo aan te passen dat de buzzer na elke knopdruk direct stopt. |
+| **Za 13 juni** | Testen of alles goed blijft werken na vaker spelen. | Getest.
 
 | **Zo 14 juni** | Verslag gemaakt aan het einde van de week. ** Dit is ook niet gelukt en heb ik nog dingen moeten aanpassen op de laatste dag ** 
 
@@ -136,6 +135,6 @@ Bekijk de foto van het schema.
 ---
 
 ## 9. Wat kan de volgende keer beter? (Verbeterpunten)
-*   Het spel is nu gebouwd op een breadboard met losse kabeltjes. De volgende keer zou ik de onderdelen op een printplaat willen solderen zodat het steviger is en niet losraakt. Of tenminste iets 3d printen zodat het steviger in mekaar zit.
+*   Het spel is nu gebouwd op een breadboard met losse kabeltjes. De volgende keer zou ik de onderdelen op een printplaat willen solderen zodat het steviger is en niet losraakt. Of tenminste iets 3d printen zodat het steviger in elkaar zit.
 *   De knoppen worden nu uitgelezen met een simpele loop. Dit kan beter met 'interrupts', zodat de Arduino de knoppen direct registreert, zelfs als de code bezig is met een delay. Hier ben ik veel te laat achter gekomen en dit weet ik nu voor de toekomst.
 *   Volgende keer wil ik meer lampjes toevoegen en het daardoor veel moeilijker maken voor de speler!
