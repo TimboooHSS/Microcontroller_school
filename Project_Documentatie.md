@@ -43,6 +43,7 @@ Het spel werkt als volgt:
 | **Buzzer** Buzzertje | [1] |
 | **Weerstanden**  220 Ohm | [3] | Nodig om je lampjes niet kapot te branden
 | **Breadboard & Kabeltjes** | [1] | 
+| **Kabels** | [20] | 
 
 ---
 
@@ -104,10 +105,15 @@ Bekijk de foto van het schema.
 *Hieronder staat wat ik heb getest om te kijken of alles goed werkt.*
 
 | **Opstarten** | Scherm toont "READY?" | Scherm werkte, maar de lampjes bleven uit bij de start. (Opgelost) |
+
 | **Ronde starten** | Spel laat zien welke ronde het is en laat 1 lampje branden met geluid. | Dit werkte meteen goed. 
+
 | **Goede knop indrukken** | Spel gaat naar de volgende ronde en voegt een lampje toe. | Dit werkte goed. 
+
 | **Foute knop indrukken** | Spel stopt, zegt "WRONG!", speelt een foutgeluid en start opnieuw. | Spel stopte wel, maar er bleef oude tekst op het scherm staan. (Code later aangepast)  (Nu opgelost) |
+
 | **Spel winnen (10 rondes)** | Scherm zegt "YOU WIN!" en speelt een overwinningsmuziekje. | Muziekje speelde af, maar de tekst kwam nooit op het schermpje. (Code later aangepast) | (Nu opgelost) |
+
 | **Meerdere knoppen tegelijk indrukken** | Spel mag niet crashen of vastlopen. | Spel pakt gewoon de eerste knop die hij registreert en loopt niet vast.
 
 ---
