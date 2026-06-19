@@ -63,21 +63,33 @@ Het spel werkt als volgt:
 ### Week 1 (1 t/m 7 juni 2026)
 
 | **Ma 1 juni** | Eisen bekijken en bedenken wat ik ga maken. | Eisen bekeken. Gekozen om een Simon Says memory spel te maken met LEDs en geluid. |
+
 | **Di 2 juni** | Onderdelen bij elkaar zoeken in het lokaal. | Alle onderdelen gevonden. Het schermpje had andere pinnetjes dan op het internet stond, dus de datasheet erbij gepakt voor de juiste poorten. |
+
 | **Wo 3 juni** | Arduino IDE installeren en de microcontroller aansluiten op de pc. | IDE geïnstalleerd. De pc herkende de Arduino eerst niet. Dit bleek te liggen aan de USB-driver van het goedkope Arduino-bordje. Driver geïnstalleerd en toen werkte het. |
+
 | **Do 4 juni** | Tekenen van het aansluitschema op papier. | Schema getekend. Gekozen om de knoppen met `INPUT_PULLUP` aan te sluiten om minder losse weerstanden nodig te hebben. |
+
 | **Vr 5 juni** | LEDs, knoppen en de buzzer op het breadboard prikken. | Alles opgebouwd. Simpele testcode geschreven. Eén knopje bleek kapot te zijn en deed niks. Dit knopje vervangen door een andere. |
+
 | **Za 6 juni** | Weekend. | - |
+
 | **Zo 7 juni** | Het OLED schermpje aansluiten en testen of het werkt. | Scherm aangesloten. Het scherm bleef eerst helemaal zwart. Het I2C-adres in de code bleek niet te kloppen. Aangepast van 0x3D naar 0x3C en toen werkte het. |
 
 ### Week 2 (8 t/m 14 juni 2026)
 
 | **Ma 8 juni** | Basiscode schrijven voor de LEDs en buzzer. | Code geschreven om de LEDs te laten knipperen en de buzzer tonen te laten maken. De tonen van de buzzer wat zachter gezet zodat het minder irritant klinkt. |
+
 | **Di 9 juni** | Spel-volgorde maken (willekeurige LEDs laten branden). | Code geschreven voor de willekeurige volgorde. Probleem: bij het opstarten was de volgorde steeds precies hetzelfde. Opgelost door `randomSeed(analogRead(0))` te gebruiken. |
+
 | **Wo 10 juni** | Code schrijven om de knoppen uit te lezen. | Code geschreven. Probleem: als ik één keer op een knop drukte, dacht de Arduino soms dat ik twee keer drukte (denderen van de knop). Opgelost door een kleine delay in de code te zetten na het indrukken. |
+
 | **Do 11 juni** | Teksten zoals de ronde en win/verlies op het scherm programmeren. | Teksten geprogrammeerd. Het scherm reageerde eerst wat traag. De code wat korter gemaakt om geheugen te besparen. |
+
 | **Vr 12 juni** | Het hele spel voor de eerste keer testen en fouten zoeken. | Eerste grote test gedaan. Het spel werkte, maar de lampjes knipperden veel te snel achter elkaar waardoor je het niet kon onthouden. Delays in de code langer gemaakt. |
+
 | **Za 13 juni** | Testen of alles goed blijft werken na vaker spelen. | Getest. Soms bleef de buzzer piepen als je heel snel op de knoppen drukte. Dit opgelost door de code zo aan te passen dat de buzzer na elke knopdruk direct stopt. |
+
 | **Zo 14 juni** | Verslag gemaakt aan het einde van de week. ** Dit is ook niet gelukt en heb ik nog dingen moeten aanpassen op de laatste dag ** 
 
 ---
