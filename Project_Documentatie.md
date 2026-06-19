@@ -112,6 +112,8 @@ Bekijk de foto van het schema.
 3.  **Spel toonde steeds dezelfde volgorde:**
     *   *Wat was er mis: De willekeurige generator begon telkens bij dezelfde waarde bij het opstarten.
     *   *Oplossing:* `randomSeed(analogRead(0))` toegevoegd in de setup. Omdat pin A0 niet is aangesloten, leest hij ruis en is het spel elke keer anders.
+4.  **Schema volgen was een aardig groot probleem. Ik wil mij hier de volgende keer beter op voorbereiden en zorgen dat ik daadwerkelijk genoeg energie heb om het schema goed af te werken.**
+    *   Oplossing::* Gelukkig is dit geen probleem met de volgende keuzedelen omdat ik dan niet met veel examens zit. Deze keer was het erg lastig omdat ik ook dingen moest voorbereiden voor alle AVO examens. Hierdoor had ik minder tijd.
 
 ---
 
